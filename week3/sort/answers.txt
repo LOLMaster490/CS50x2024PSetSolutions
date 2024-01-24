@@ -1,0 +1,11 @@
+sort1 uses: bubble
+// random slow (5,714s), sorted fast(0,453s), reversed slow(4,917s)
+How do you know?: processes files very slowly, but speeds up considerably when input is already sorted which bubblesort can do after iterating through data set once
+
+sort2 uses: merge
+// random fast (0.625s), sorted fast (0,383s), reversed fast(0,390s)
+How do you know?: clearly fastest of the three
+
+sort3 uses: selection
+// random slow(2,160s), sorted slow(2,465s), reversed slow(2,574s)
+How do you know?: processing consistently slow, which indicates that algorithm is slow and always sorts all numbers even if not needed
