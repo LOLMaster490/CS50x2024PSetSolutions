@@ -1,0 +1,3 @@
+Audio aura of given listener would be purple or orange as average energy and danceability across these songs is rather high, whilst valence is somewhat lower.
+
+Taking average means that listener that would listen to both very low energy and high energy songs would be describes as somewhere in between. It would be better to use mode instead.
